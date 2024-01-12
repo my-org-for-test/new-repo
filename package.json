@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-github-deps-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "my-nodejs-project": "git+https://github.com/my-org-for-test/my-nodejs-project.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
